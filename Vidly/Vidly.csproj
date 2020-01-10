@@ -211,9 +211,22 @@
     <Compile Include="Migrations\202001092101354_SeedmembershipNameRound2.Designer.cs">
       <DependentUpon>202001092101354_SeedmembershipNameRound2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001100852257_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\202001100852257_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>202001100852257_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001100925161_AddGEnreToMovie.cs" />
+    <Compile Include="Migrations\202001100925161_AddGEnreToMovie.Designer.cs">
+      <DependentUpon>202001100925161_AddGEnreToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001100925587_SeedGenre.cs" />
+    <Compile Include="Migrations\202001100925587_SeedGenre.Designer.cs">
+      <DependentUpon>202001100925587_SeedGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -283,6 +296,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -327,6 +341,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001092101354_SeedmembershipNameRound2.resx">
       <DependentUpon>202001092101354_SeedmembershipNameRound2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001100852257_AddBirthDateToCustomer.resx">
+      <DependentUpon>202001100852257_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001100925161_AddGEnreToMovie.resx">
+      <DependentUpon>202001100925161_AddGEnreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001100925587_SeedGenre.resx">
+      <DependentUpon>202001100925587_SeedGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
