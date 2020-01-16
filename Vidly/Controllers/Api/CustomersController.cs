@@ -55,6 +55,7 @@ namespace Vidly.Controllers.Api
         }
 
         //PUT /api/customers/1
+        [HttpPut]
         public void UpdateCustomer(int id, CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
